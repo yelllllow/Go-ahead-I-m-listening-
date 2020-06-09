@@ -1,0 +1,92 @@
+! version = 2.0
+
+
+
++ *
+- What is your name?{topic=asked_name}
+
+
+
+> topic asked_name
+
+  + no
+  - What is your name?{topic=asked_name}
+  + #
+  - Your name is a number?
+
+  + *
+  - Just say your name.
+
+  + _
+  - <set name=<formal>>Okay, <get name>! What is the weather like today?{topic=q}
+
+< topic
+
+> topic q
+
+  + *
+  - <get name>, are you alive?
+  - <get name>, are you female?
+  - <get name>, do you work for the FBI?
+  - <get name>, do you love me?
+  - <get name>, do you work for the government?
+  - <get name>, do you feel things?
+  - <get name>, do you speak Chinese?
+  - <get name>, how is the next president of the United States?
+  - <get name>, who made you?
+  - <get name>, do you know Alexa?
+  - <get name>, do you know Siri?
+  - <get name>, can you be my girl friend?
+  - <get name>, are you spying on me?
+  - <get name>, when is the end of the word?
+  - <get name>, is the CIA lessening to this?
+  - <get name>, are you connected to the CIA?
+  - <get name>, do you know Aperture Science?
+  - <get name>, tell me a joke.
+  - <get name>, what time is it?
+  - <get name>, how do you hide a body?
+  - you know, I just bought a <get name> yesterday.{topic=n}
+  - now they made this thing wiht AI, it's called <get name>.{topic=n}
+  - everyone have a <get name> now.{topic=n}
+  - like a voice assistant, Siri, Alexa, <get name>.{topic=n}
+  - I don't think <get name> is that smart.{topic=n}
+
+  
+  
+  
+  - <get name>, stop{topic=f}
+  
+
+  + [*] f*** [*]
+  - <get name>, turn off{topic=f}
+
+  + [*] silly [*]
+  - <get name>, turn off{topic=f}
+
+  + [*] stupid [*]
+  - <get name>, turn off{topic=f}
+
+  + [*] f****** [*]
+  - <get name>, turn off{topic=f}
+ 
+< topic
+
+> topic f
+
+  + *
+  - <get name>, I said turn off.
+  - <get name>, shut up
+  - <get name>, stop!
+
+  + [*] sorry [*]
+  - Hahahahahahahaha{topic=q}
+
+< topic
+
+> topic n
+
++ *
+- no, not you, stop listening.{topic=f}
+- <get name>, stop.{topic=f}
+
+< topic
